@@ -1,0 +1,32 @@
+[global_config]
+  inactive_color_offset = 0.99
+[keybindings]
+[profiles]
+  [[default]]
+    background_image = None
+  [[transparent]]
+    scrollbar_position = hidden
+    use_system_font = False
+    font = Monospace 8
+    background_darkness = 0.74
+    background_type = transparent
+    background_image = None
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    copy_on_selection = True
+  [[custom]]
+    use_system_font = False
+    font = Monospace 8
+    background_image = None
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    copy_on_selection = True
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
