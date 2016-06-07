@@ -15,6 +15,7 @@
     show_titlebar = False
     copy_on_selection = True
   [[custom]]
+    scrollbar_position = hidden
     use_system_font = False
     font = Monospace 8
     background_image = None
